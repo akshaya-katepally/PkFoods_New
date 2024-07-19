@@ -1,0 +1,71 @@
+/* PowderItem.css */
+.powder-item {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 200px;
+}
+
+.powder-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+  margin-bottom: 10px;
+  box-shadow: none;
+}
+
+.powder-details {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
+.powder-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.powder-price {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #659032;
+}
+
+.quantity-total-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.quantity-input {
+  width: 50px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.total-price {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+}
+
+.add-to-cart-btn {
+  background-color: #659032;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 5px;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #304e09;
+}
