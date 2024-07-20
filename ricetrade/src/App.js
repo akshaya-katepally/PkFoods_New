@@ -1,7 +1,7 @@
 // import React, { useState } from 'react';
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import Navbar from './components/Navbar';
-// import Home from './components/Home';
+// import Home from './Home';
 // import Contactus from './components/Contactus';
 // import Login from './components/Login';
 // import Signup from './components/Signup';
@@ -17,6 +17,7 @@
 
 // function App() {
 //   const [cartItems, setCartItems] = useState([]);
+//   const [alertMessage, setAlertMessage] = useState('');
 
 //   const addToCart = (item) => {
 //     const existingItemIndex = cartItems.findIndex(cartItem => cartItem.id === item.id);
@@ -28,13 +29,10 @@
 //     } else {
 //       setCartItems([...cartItems, item]);
 //     }
-//     // // Set the alert message
-//     // setAlertMessage(`${item.name} (${weight} kg) added to cart!`);
-
-//     // // Hide the alert message after 3 seconds
-//     // setTimeout(() => {
-//     //   setAlertMessage('');
-//     // }, 3000);
+//     setAlertMessage(`${item.name} (${item.quantity} kg) added to cart!`);
+//     setTimeout(() => {
+//       setAlertMessage('');
+//     }, 5000);
 //   };
 
 //   const data = {
@@ -45,7 +43,7 @@
 
 //   return (
 //     <Router>
-//       <Navbar addToCart={addToCart} cartItems={cartItems} />
+//       <Navbar alertMessage={alertMessage} addToCart={addToCart} cartItems={cartItems} />
 //       <div>
 //         <Routes>
 //           <Route path="/" element={<Home />} />
