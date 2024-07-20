@@ -185,26 +185,6 @@ function Contactus() {
                     </div>
                 </div>
             </section >
-
-            <section>
-                <h2 style={styles.officeh2}>PKFoods</h2>
-                <div style={styles.office}>
-                    <div>
-                        <h3 style={styles.officeh3}>Arizona, United States</h3>
-                        <p style={styles.officeP}>line-1</p>
-                        <p style={styles.officeP}>line-2</p>
-                        <p style={styles.officeP}>line-3</p>
-                        <p style={styles.officeP}>United States</p>
-                    </div>
-                    <div>
-                        <h3 style={styles.officeh3}>Hyderabad, India</h3>
-                        <p style={styles.officeP}>line-1</p>
-                        <p style={styles.officeP}>line-2</p>
-                        <p style={styles.officeP}>line-3</p>
-                        <p style={styles.officeP}>India</p>
-                    </div>
-                </div>
-            </section>
         </>
     );
 }
