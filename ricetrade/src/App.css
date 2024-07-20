@@ -31,25 +31,23 @@ nav {
   margin-left: 20px;
 }
 
-/* Style the unordered list (ul) for centering */
+
 nav ul {
   list-style: none;
   display: flex;
-  /* Reset default padding and margin for better control */
   padding: 0;
   margin: 0;
-  /* Use a calculated width based on the number of links */
-  width: calc(3 * (100px + 40px)); /* Adjust values based on link width and margin */
-  justify-content: center; /* Center content within width */
+  width: calc(3 * (100px + 40px)); 
+  justify-content: center; 
 }
 
 nav ul li {
   margin: 0;
-  margin-right: 20px; /* Spacing between links (optional) */
+  margin-right: 20px; 
 }
 
 nav ul li:last-child {
-  margin-right: 0; /* Remove margin from last link */
+  margin-right: 0; 
 }
 
 nav ul li a {
