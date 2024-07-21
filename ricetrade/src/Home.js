@@ -68,7 +68,7 @@ const Image = styled.img`
 
 const Title = styled.h2`
   font-family: 'Comic Sans MS', cursive; 
-  font-size: 32px; 
+  font-size: 40px; 
   color: #FF5733; 
   text-align: center;
   margin-bottom: 20px;
